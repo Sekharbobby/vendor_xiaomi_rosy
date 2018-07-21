@@ -154,8 +154,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rosy/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/xiaomi/rosy/proprietary/lib64/hw/audio.primary.msm8953.so:system/lib64/hw/audio.primary.msm8953.so \
     vendor/xiaomi/rosy/proprietary/lib64/hw/consumerir.default.so:system/lib64/hw/consumerir.default.so \
-    vendor/xiaomi/rosy/proprietary/lib64/hw/fingerprint.fpc.so:system/lib64/hw/fingerprint.fpc.so \
-    vendor/xiaomi/rosy/proprietary/lib64/hw/fingerprint.goodix.so:system/lib64/hw/fingerprint.goodix.so \
+    vendor/xiaomi/rosy/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
+    vendor/xiaomi/rosy/proprietary/lib64/hw/gf_fingerprint.default.so:system/lib64/hw/gf_fingerprint.default.so \
     vendor/xiaomi/rosy/proprietary/lib64/hw/lights.real.so:system/lib64/hw/lights.real.so \
     vendor/xiaomi/rosy/proprietary/lib64/libgf_ca.so:system/lib64/libgf_ca.so \
     vendor/xiaomi/rosy/proprietary/lib64/libgf_hal.so:system/lib64/libgf_hal.so \
