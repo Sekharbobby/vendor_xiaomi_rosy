@@ -22,6 +22,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rosy/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/xiaomi/rosy/proprietary/bin/dun-server:system/bin/dun-server \
     vendor/xiaomi/rosy/proprietary/bin/energy-awareness:system/bin/energy-awareness \
+    vendor/xiaomi/rosy/proprietary/bin/fingerprintd:system/bin/fingerprintd \
     vendor/xiaomi/rosy/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/xiaomi/rosy/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/xiaomi/rosy/proprietary/bin/hvdcp_opti:system/bin/hvdcp_opti \
