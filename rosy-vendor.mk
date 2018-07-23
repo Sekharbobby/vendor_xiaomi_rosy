@@ -141,7 +141,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rosy/proprietary/lib/hw/bluetooth.default.so:system/lib/hw/bluetooth.default.so \
     vendor/xiaomi/rosy/proprietary/lib/hw/camera.msm8953.so:system/lib/hw/camera.msm8953.so \
     vendor/xiaomi/rosy/proprietary/lib/hw/consumerir.default.so:system/lib/hw/consumerir.default.so \
-    vendor/xiaomi/rosy/proprietary/lib/hw/lights.real.so:system/lib/hw/lights.real.so \
     vendor/xiaomi/rosy/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/xiaomi/rosy/proprietary/lib/libgnsspps.so:system/lib/libgnsspps.so \
     vendor/xiaomi/rosy/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
@@ -157,7 +156,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rosy/proprietary/lib64/hw/consumerir.default.so:system/lib64/hw/consumerir.default.so \
     vendor/xiaomi/rosy/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
     vendor/xiaomi/rosy/proprietary/lib64/hw/gf_fingerprint.default.so:system/lib64/hw/gf_fingerprint.default.so \
-    vendor/xiaomi/rosy/proprietary/lib64/hw/lights.real.so:system/lib64/hw/lights.real.so \
     vendor/xiaomi/rosy/proprietary/lib64/libgf_ca.so:system/lib64/libgf_ca.so \
     vendor/xiaomi/rosy/proprietary/lib64/libgf_hal.so:system/lib64/libgf_hal.so \
     vendor/xiaomi/rosy/proprietary/lib64/libgnsspps.so:system/lib64/libgnsspps.so \
