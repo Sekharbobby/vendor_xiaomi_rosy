@@ -1,4 +1,5 @@
-# Copyright (C) 2018 The LineageOS Project
+# Copyright (C) 2016 The CyanogenMod Project
+# Copyright (C) 2017-2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -188,8 +189,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libChamomilePA.so:system/vendor/lib/libChamomilePA.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libDRPlugin.so:system/vendor/lib/libDRPlugin.so \
+    vendor/xiaomi/rosy/proprietary/vendor/lib/libEGL_adreno.so:system/vendor/lib/libEGL_adreno.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libFaceGrade.so:system/vendor/lib/libFaceGrade.so \
-    vendor/xiaomi/rosy/proprietary/vendor/lib/libFaceProc.so:system/vendor/lib/libFaceProc.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libFileMux.so:system/vendor/lib/libFileMux.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
@@ -206,8 +207,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
-    vendor/xiaomi/rosy/proprietary/vendor/lib/libRecoFace.so:system/vendor/lib/libRecoFace.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
+    vendor/xiaomi/rosy/proprietary/vendor/lib/libXMFD_AgeGender.so:system/vendor/lib/libXMFD_AgeGender.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/lib_lowlight.so:system/vendor/lib/lib_lowlight.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
@@ -252,6 +253,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libc2d30-a5xx.so:system/vendor/lib/libc2d30-a5xx.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libc2d30_bltlib.so:system/vendor/lib/libc2d30_bltlib.so \
+    vendor/xiaomi/rosy/proprietary/vendor/lib/libcaffe.so:system/vendor/lib/libcaffe.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libchromaflash.so:system/vendor/lib/libchromaflash.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libchromatix_ov13855_qtech_common.so:system/vendor/lib/libchromatix_ov13855_qtech_common.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libchromatix_ov13855_qtech_cpp_hfr_120.so:system/vendor/lib/libchromatix_ov13855_qtech_cpp_hfr_120.so \
@@ -356,6 +358,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_cpp_liveshot.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_cpp_liveshot.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_cpp_preview.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_cpp_preview.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_cpp_snapshot.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_cpp_snapshot.so \
+    vendor/xiaomi/rosy/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_cpp_snapshot_hht.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_cpp_snapshot_hht.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_cpp_video.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_cpp_video.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_default_preview_dw9763.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_default_preview_dw9763.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_default_video.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_default_video.so \
@@ -382,6 +385,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_cpp_preview.so:system/vendor/lib/libchromatix_ovt_ov5675_i_cpp_preview.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_cpp_preview_torch.so:system/vendor/lib/libchromatix_ovt_ov5675_i_cpp_preview_torch.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_cpp_snapshot.so:system/vendor/lib/libchromatix_ovt_ov5675_i_cpp_snapshot.so \
+    vendor/xiaomi/rosy/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_cpp_snapshot_hht.so:system/vendor/lib/libchromatix_ovt_ov5675_i_cpp_snapshot_hht.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_cpp_snapshot_torch.so:system/vendor/lib/libchromatix_ovt_ov5675_i_cpp_snapshot_torch.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_cpp_video.so:system/vendor/lib/libchromatix_ovt_ov5675_i_cpp_video.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_cpp_video_torch.so:system/vendor/lib/libchromatix_ovt_ov5675_i_cpp_video_torch.so \
@@ -416,6 +420,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_cpp_preview.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_cpp_preview.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_cpp_preview_torch.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_cpp_preview_torch.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_cpp_snapshot.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_cpp_snapshot.so \
+    vendor/xiaomi/rosy/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_cpp_snapshot_hht.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_cpp_snapshot_hht.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_cpp_snapshot_torch.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_cpp_snapshot_torch.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_cpp_video.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_cpp_video.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_cpp_video_torch.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_cpp_video_torch.so \
@@ -681,6 +686,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libchromatix_sony_imx486_ii_cpp_liveshot.so:system/vendor/lib/libchromatix_sony_imx486_ii_cpp_liveshot.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libchromatix_sony_imx486_ii_cpp_preview.so:system/vendor/lib/libchromatix_sony_imx486_ii_cpp_preview.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libchromatix_sony_imx486_ii_cpp_snapshot.so:system/vendor/lib/libchromatix_sony_imx486_ii_cpp_snapshot.so \
+    vendor/xiaomi/rosy/proprietary/vendor/lib/libchromatix_sony_imx486_ii_cpp_snapshot_hht.so:system/vendor/lib/libchromatix_sony_imx486_ii_cpp_snapshot_hht.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libchromatix_sony_imx486_ii_cpp_video.so:system/vendor/lib/libchromatix_sony_imx486_ii_cpp_video.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libchromatix_sony_imx486_ii_default_preview_dw9714v.so:system/vendor/lib/libchromatix_sony_imx486_ii_default_preview_dw9714v.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib/libchromatix_sony_imx486_ii_default_video.so:system/vendor/lib/libchromatix_sony_imx486_ii_default_video.so \
@@ -993,6 +999,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rosy/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib64/libCommandSvc.so:system/vendor/lib64/libCommandSvc.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib64/libDRPlugin.so:system/vendor/lib64/libDRPlugin.so \
+    vendor/xiaomi/rosy/proprietary/vendor/lib64/libEGL_adreno.so:system/vendor/lib64/libEGL_adreno.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib64/libFileMux.so:system/vendor/lib64/libFileMux.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib64/libGPTEE.so:system/vendor/lib64/libGPTEE.so \
     vendor/xiaomi/rosy/proprietary/vendor/lib64/libGPreqcancel.so:system/vendor/lib64/libGPreqcancel.so \
