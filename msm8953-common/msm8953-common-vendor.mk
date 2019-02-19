@@ -561,4 +561,5 @@ PRODUCT_PACKAGES += \
     imssettings \
     uceShimService \
     TimeService \
-    WfdCommon
+    WfdCommon \
+    ParanoidPapers 
